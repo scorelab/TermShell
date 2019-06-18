@@ -9,14 +9,14 @@ RED='\033[0;31m'
 OS=$(uname)
 
 if [ "$OS" == "Darwin" ]; then 
-    sudo bash macos.sh 
+    sudo bash macos.sh
 elif [ "$OS" == "Linux" ]; then
     sudo bash ubuntu.sh
 elif [ "$OS" == "WindowsNT" ]; then 
     sudo bash windows.sh
 else
     printf "❌ ${RED}Termshell is presently not supported on ${OS}${NC}\n\n"
-    printf "Please feel free to file a bug and help us improve (https://github.com/scorelab/TermShell/issues)"
+    printf "Please feel free to file a bug and help us improve ➡ (https://github.com/scorelab/TermShell/issues)"
 fi
 
 
