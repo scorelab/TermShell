@@ -1,0 +1,17 @@
+# general 
+.git
+.DS_Store
+.vscode/
+
+
+# python artifacts
+__pycache__/
+*.pyc
+*$py.class
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
